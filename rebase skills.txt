@@ -1,10 +1,8 @@
 1.git add
 2.git commit -m
 3.git log
-4.git rebase 
-<<<<<<< HEAD
+4.git rebase -i xxxxxxxxxxxxxxxxxx
 5.git push -f
 6.over
-=======
-5.git push -f
->>>>>>> f9ae9b998c35c00d6a5e9e9ec3798d0665736871
+ 
+git rebase -i之后可以选择把pick改为s或者drop，就直接删除了，本地文件也删了？不知道为什么
